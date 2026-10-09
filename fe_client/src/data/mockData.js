@@ -1,0 +1,71 @@
+export const batches = [
+  {
+    id: "JP-2607-001",
+    bahan: "Ayam Fillet",
+    lokasi: "Chiller 1",
+    suhu: "4.2°C",
+    paparan: "18 menit",
+    status: "AMAN",
+    kategori: "Protein hewani",
+  },
+  {
+    id: "JP-2607-002",
+    bahan: "Telur",
+    lokasi: "Chiller 2",
+    suhu: "7.8°C",
+    paparan: "1 jam 12 menit",
+    status: "WASPADA",
+    kategori: "Telur & susu",
+  },
+  {
+    id: "JP-2607-003",
+    bahan: "Tahu",
+    lokasi: "Chiller 3",
+    suhu: "5.1°C",
+    paparan: "32 menit",
+    status: "AMAN",
+    kategori: "Protein nabati basah",
+  },
+  {
+    id: "JP-2607-004",
+    bahan: "Sayur Campur",
+    lokasi: "Chiller 1",
+    suhu: "4.8°C",
+    paparan: "24 menit",
+    status: "AMAN",
+    kategori: "Sayur & buah",
+  },
+  {
+    id: "JP-2607-005",
+    bahan: "Saus Kacang",
+    lokasi: "Gudang Kering",
+    suhu: "29°C",
+    paparan: "4 jam 08 menit",
+    status: "TAHAN",
+    kategori: "Bahan kering",
+  },
+];
+
+export const consumerData = {
+  catering: "Katering Contoh - Depok",
+  batchId: "JP-2607-001",
+  status: "Aman",
+  menu: "Nasi Ayam Teriyaki",
+  service: "Katering makan siang kantor",
+  supplier: "Supplier Ayam Segar Depok",
+  cookedAt: "07 Okt 2026, 08:20",
+  arrivedAt: "07 Okt 2026, 10:05",
+  duration: "1 jam 45 menit",
+  currentStatus: "Aman untuk dikonsumsi",
+  weeklyScore: 96,
+  incidents: 0,
+  slhs: "Terdaftar",
+};
+
+export const temperatureHistory = [
+  { time: "08:00", temp: 4.1, humidity: 67, door: 0 },
+  { time: "08:30", temp: 4.3, humidity: 68, door: 12 },
+  { time: "09:00", temp: 4.6, humidity: 69, door: 18 },
+  { time: "09:30", temp: 4.4, humidity: 67, door: 5 },
+  { time: "10:00", temp: 4.2, humidity: 66, door: 0 },
+];
